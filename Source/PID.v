@@ -28,7 +28,7 @@ module PID(
     output reg signed [15:0] PID_out
     );
     
-    parameter [15:0] Desired_value = 16'd900;
+    parameter [15:0] Desired_value = 16'd950;
     parameter signed [15:0] Kp = 16'sd160; 
     parameter signed [15:0] Ki = 16'sd25; 
     parameter signed [15:0] Kd = 16'sd60; 
